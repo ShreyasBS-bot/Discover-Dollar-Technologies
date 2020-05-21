@@ -3,7 +3,12 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="Regression_Scripts.Sorting_Products_Based_On_Ascending_Order_Of_Their_Price"/>
+      <class name="Regression_Scripts.Adding_A_Product_To_Cart_And_Checking_In_Cart"/>
+      <class name="Regression_Scripts.User_Addig_Two_Products_And_Removing_One_Product_And_Checking_The_Total_Amount"/>
+      <class name="Regression_Scripts.Removing_A_Product_From_Cart_And_Checking_Under_Cart"/>
       <class name="Regression_Scripts.User_Increasing_The_No_Of_Products_In_Cart_And_Checking_The_Total_Amount"/>
+      <class name="Regression_Scripts.User_Adding_Multiple_Products_To_Cart_And_Checking_In_The_Cart"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
