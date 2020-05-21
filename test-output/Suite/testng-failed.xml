@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Regression_Scripts.User_Increasing_The_No_Of_Products_In_Cart_And_Checking_The_Total_Amount">
+        <methods>
+          <include name="scenario3"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="closeAppn"/>
+          <include name="openapp"/>
+        </methods>
+      </class> <!-- Regression_Scripts.User_Increasing_The_No_Of_Products_In_Cart_And_Checking_The_Total_Amount -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
