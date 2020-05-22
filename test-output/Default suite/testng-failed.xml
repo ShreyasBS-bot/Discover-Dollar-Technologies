@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Regression_Scripts.User_Adding_Multiple_Products_To_Cart_And_Checking_In_The_Cart">
+      <class name="Regression_Scripts.User_Increasing_The_No_Of_Products_In_Cart_And_Checking_The_Total_Amount">
         <methods>
           <include name="setup"/>
+          <include name="scenario5"/>
           <include name="teardown"/>
-          <include name="scenario6"/>
           <include name="closeAppn"/>
           <include name="openapp"/>
         </methods>
-      </class> <!-- Regression_Scripts.User_Adding_Multiple_Products_To_Cart_And_Checking_In_The_Cart -->
+      </class> <!-- Regression_Scripts.User_Increasing_The_No_Of_Products_In_Cart_And_Checking_The_Total_Amount -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
